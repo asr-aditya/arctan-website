@@ -7,11 +7,6 @@ import './hero9.css'
 const Hero9 = (props) => {
   return (
     <div className="hero9-header30 thq-section-padding">
-      <img
-        alt={props.image1Alt}
-        src={props.image1Src}
-        className="hero9-image"
-      />
       <div className="hero9-container"></div>
       <div className="hero9-max-width thq-section-max-width">
         <div className="hero9-content">
@@ -30,7 +25,7 @@ const Hero9 = (props) => {
             )}
           </p>
           <div className="hero9-actions">
-            <button className="thq-button-filled hero9-button1">
+            <button className="hero9-button1 thq-button-filled">
               <span>
                 {props.action1 ?? (
                   <Fragment>
@@ -41,7 +36,7 @@ const Hero9 = (props) => {
                 )}
               </span>
             </button>
-            <button className="thq-button-outline hero9-button2">
+            <button className="hero9-button2 thq-button-outline">
               <span>
                 {props.action2 ?? (
                   <Fragment>
@@ -61,21 +56,16 @@ const Hero9 = (props) => {
 
 Hero9.defaultProps = {
   action1: undefined,
-  image1Alt: 'AI Voicebot in Action',
   heading1: undefined,
   action2: undefined,
   content1: undefined,
-  image1Src:
-    'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fHNhbGVzJTIwdHJhaW5pbmd8ZW58MHx8fHwxNzIzNDYwOTU1fDA&ixlib=rb-4.0.3&w=1500',
 }
 
 Hero9.propTypes = {
   action1: PropTypes.element,
-  image1Alt: PropTypes.string,
   heading1: PropTypes.element,
   action2: PropTypes.element,
   content1: PropTypes.element,
-  image1Src: PropTypes.string,
 }
 
 export default Hero9

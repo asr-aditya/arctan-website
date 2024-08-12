@@ -36,7 +36,7 @@ const CTA26 = (props) => {
               <div className="cta26-actions">
                 <button
                   type="button"
-                  className="thq-button-filled cta26-button"
+                  className="cta26-button thq-button-filled"
                 >
                   <span>
                     {props.action1 ?? (

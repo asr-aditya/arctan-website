@@ -33,6 +33,8 @@
 .about-text18 {
   display: inline-block;
   text-align: center;
+  font-family: "Roboto";
+  text-transform: capitalize;
 }
 .about-text19 {
   display: inline-block;
@@ -233,23 +235,6 @@
   display: inline-block;
 }
 .about-text78 {
-  display: inline-block;
-}
-.about-text79 {
-  display: inline-block;
-}
-.about-text80 {
-  display: inline-block;
-}
-.about-text81 {
-  display: inline-block;
-}
-.about-text82 {
-  display: inline-block;
-}
-.about-text83 {
-  fill: var(--dl-color-theme-neutral-dark);
-  color: var(--dl-color-theme-neutral-dark);
   display: inline-block;
 }
 @media(max-width: 767px) {

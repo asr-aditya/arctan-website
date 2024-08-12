@@ -6,7 +6,7 @@ import './navbar2.css'
 
 const Navbar2 = (props) => {
   return (
-    <header className="navbar2-container">
+    <header className={`navbar2-container ${props.rootClassName} `}>
       <header data-thq="thq-navbar" className="navbar2-navbar-interactive">
         <img
           alt={props.logoAlt}
@@ -143,10 +143,10 @@ Navbar2.defaultProps = {
   link2Url: 'https://www.teleporthq.io',
   link4Url: 'https://www.teleporthq.io',
   logoAlt: 'Company Logo',
+  rootClassName: '',
   link5: undefined,
   link3Url: 'https://www.teleporthq.io',
-  logoSrc:
-    'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/84ec08e8-34e9-42c7-9445-d2806d156403/fac575ac-7a41-484f-b7ac-875042de11f8?org_if_sml=1&force_format=original',
+  logoSrc: '/j%20(1)2-1500h.png',
   link2: undefined,
   link1Url: 'https://www.teleporthq.io',
   link1: undefined,
@@ -159,6 +159,7 @@ Navbar2.propTypes = {
   link2Url: PropTypes.string,
   link4Url: PropTypes.string,
   logoAlt: PropTypes.string,
+  rootClassName: PropTypes.string,
   link5: PropTypes.element,
   link3Url: PropTypes.string,
   logoSrc: PropTypes.string,

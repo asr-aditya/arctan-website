@@ -7,7 +7,7 @@ import './features25.css'
 const Features25 = (props) => {
   const [activeTab, setActiveTab] = useState(0)
   return (
-    <div className="thq-section-padding">
+    <div className={`thq-section-padding ${props.rootClassName} `}>
       <div className="features25-container2 thq-section-max-width">
         <div className="features25-tabs-menu">
           <div
@@ -130,6 +130,7 @@ const Features25 = (props) => {
 Features25.defaultProps = {
   feature3Title: undefined,
   feature2Description: undefined,
+  rootClassName: '',
   feature1ImgAlt: 'AI Voicebot Training Image',
   feature3Description: undefined,
   feature1ImgSrc:
@@ -148,6 +149,7 @@ Features25.defaultProps = {
 Features25.propTypes = {
   feature3Title: PropTypes.element,
   feature2Description: PropTypes.element,
+  rootClassName: PropTypes.string,
   feature1ImgAlt: PropTypes.string,
   feature3Description: PropTypes.element,
   feature1ImgSrc: PropTypes.string,

@@ -1,14 +1,6 @@
 .hero9-header30 {
   gap: var(--dl-space-space-twounits);
 }
-.hero9-image {
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  object-fit: cover;
-}
 .hero9-container {
   top: 0px;
   left: 0px;
@@ -42,9 +34,27 @@
   display: flex;
   align-items: flex-start;
 }
+.hero9-button1 {
+  border-color: #2e133d;
+  background-color: #2e133d;
+}
+.hero9-button2 {
+  color: #2e133d;
+  z-index: 100;
+  box-shadow: 5px 5px 10px 0px;
+  font-family: "Roboto";
+  border-color: #2e133d;
+  animation-name: none;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
 .hero9-text5 {
   display: inline-block;
   text-align: center;
+  font-family: "Roboto";
 }
 .hero9-text6 {
   display: inline-block;
@@ -53,6 +63,7 @@
 .hero9-text7 {
   display: inline-block;
   text-align: center;
+  font-family: "Roboto";
 }
 .hero9-text8 {
   display: inline-block;

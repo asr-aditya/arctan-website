@@ -24,7 +24,7 @@ const Footer4 = (props) => {
             >
               {props.link1 ?? (
                 <Fragment>
-                  <span className="footer4-text21 thq-body-small">Product</span>
+                  <span className="footer4-text4 thq-body-small">Product</span>
                 </Fragment>
               )}
             </a>
@@ -35,32 +35,8 @@ const Footer4 = (props) => {
             >
               {props.link2 ?? (
                 <Fragment>
-                  <span className="footer4-text16 thq-body-small">
+                  <span className="footer4-text2 thq-body-small">
                     Solutions
-                  </span>
-                </Fragment>
-              )}
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              {props.link3 ?? (
-                <Fragment>
-                  <span className="footer4-text14 thq-body-small">Pricing</span>
-                </Fragment>
-              )}
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              {props.link4 ?? (
-                <Fragment>
-                  <span className="footer4-text19 thq-body-small">
-                    About Us
                   </span>
                 </Fragment>
               )}
@@ -72,7 +48,7 @@ const Footer4 = (props) => {
             >
               {props.link5 ?? (
                 <Fragment>
-                  <span className="footer4-text17 thq-body-small">
+                  <span className="footer4-text3 thq-body-small">
                     Contact Us
                   </span>
                 </Fragment>
@@ -84,37 +60,9 @@ const Footer4 = (props) => {
           <div className="thq-divider-horizontal"></div>
           <div className="footer4-row">
             <div className="footer4-container">
-              <span className="thq-body-small">© 2024 TeleportHQ</span>
+              <span className="thq-body-small">© 2024 Arctan.ai</span>
             </div>
-            <div className="footer4-footer-links">
-              <span>
-                {props.privacyLink ?? (
-                  <Fragment>
-                    <span className="footer4-text18 thq-body-small">
-                      Privacy Policy
-                    </span>
-                  </Fragment>
-                )}
-              </span>
-              <span>
-                {props.termsLink ?? (
-                  <Fragment>
-                    <span className="footer4-text20 thq-body-small">
-                      Terms of Use
-                    </span>
-                  </Fragment>
-                )}
-              </span>
-              <span>
-                {props.cookiesLink ?? (
-                  <Fragment>
-                    <span className="footer4-text15 thq-body-small">
-                      Cookies Policy
-                    </span>
-                  </Fragment>
-                )}
-              </span>
-            </div>
+            <div className="footer4-footer-links"></div>
           </div>
         </div>
       </div>
@@ -123,28 +71,18 @@ const Footer4 = (props) => {
 }
 
 Footer4.defaultProps = {
-  link3: undefined,
-  cookiesLink: undefined,
   logoSrc: 'https://presentation-website-assets.teleporthq.io/logos/logo.png',
   link2: undefined,
   link5: undefined,
   logoAlt: 'AI Voicebots Company',
-  privacyLink: undefined,
-  link4: undefined,
-  termsLink: undefined,
   link1: undefined,
 }
 
 Footer4.propTypes = {
-  link3: PropTypes.element,
-  cookiesLink: PropTypes.element,
   logoSrc: PropTypes.string,
   link2: PropTypes.element,
   link5: PropTypes.element,
   logoAlt: PropTypes.string,
-  privacyLink: PropTypes.element,
-  link4: PropTypes.element,
-  termsLink: PropTypes.element,
   link1: PropTypes.element,
 }
 

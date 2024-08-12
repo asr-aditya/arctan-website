@@ -15,8 +15,20 @@ const About = (props) => {
   return (
     <div className="about-container">
       <Helmet>
-        <title>About - Defensive Left Zebra</title>
-        <meta property="og:title" content="About - Defensive Left Zebra" />
+        <title>About - AI powered sales training</title>
+        <meta
+          name="description"
+          content="Provide your sales team with a risk-free environment to hone their skills without the fear of real-world repercussions."
+        />
+        <meta property="og:title" content="About - AI powered sales training" />
+        <meta
+          property="og:description"
+          content="Provide your sales team with a risk-free environment to hone their skills without the fear of real-world repercussions."
+        />
+        <meta
+          property="og:image"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/6ce25b80-87a1-4c46-a83a-844afc4e465f/7a10780f-b87e-4b0b-8679-2bb9df0f1885?org_if_sml=1&amp;force_format=original"
+        />
       </Helmet>
       <Navbar22
         link1={
@@ -466,34 +478,9 @@ const About = (props) => {
             <span className="about-text77 thq-body-small">Solutions</span>
           </Fragment>
         }
-        link3={
-          <Fragment>
-            <span className="about-text78 thq-body-small">Pricing</span>
-          </Fragment>
-        }
-        link4={
-          <Fragment>
-            <span className="about-text79 thq-body-small">About Us</span>
-          </Fragment>
-        }
         link5={
           <Fragment>
-            <span className="about-text80 thq-body-small">Contact Us</span>
-          </Fragment>
-        }
-        termsLink={
-          <Fragment>
-            <span className="about-text81 thq-body-small">Terms of Use</span>
-          </Fragment>
-        }
-        cookiesLink={
-          <Fragment>
-            <span className="about-text82 thq-body-small">Cookies Policy</span>
-          </Fragment>
-        }
-        privacyLink={
-          <Fragment>
-            <span className="about-text83 thq-body-small">Privacy Policy</span>
+            <span className="about-text78 thq-body-small">Contact Us</span>
           </Fragment>
         }
       ></Footer4>

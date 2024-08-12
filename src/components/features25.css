@@ -150,6 +150,9 @@
 .features25-text6 {
   display: inline-block;
 }
+.features25-root-class-name {
+  display: none;
+}
 @media(max-width: 991px) {
   .features25-container2 {
     grid-gap: var(--dl-space-space-twounits);

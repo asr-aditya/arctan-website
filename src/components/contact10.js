@@ -6,7 +6,10 @@ import './contact10.css'
 
 const Contact10 = (props) => {
   return (
-    <div className="contact10-container1 thq-section-padding">
+    <div
+      id={props.contact10Id}
+      className="contact10-container1 thq-section-padding"
+    >
       <div className="contact10-max-width thq-section-max-width">
         <div className="contact10-content1 thq-flex-row">
           <div className="contact10-content2">
@@ -32,16 +35,11 @@ const Contact10 = (props) => {
         </div>
         <div className="contact10-content3 thq-flex-row">
           <div className="contact10-container2">
-            <img
-              alt={props.location1ImageAlt}
-              src={props.location1ImageSrc}
-              className="contact10-image1 thq-img-ratio-16-9"
-            />
             <h3>
               {props.location1 ?? (
                 <Fragment>
                   <h3 className="contact10-text16 thq-heading-3">
-                    123 Main Street, City, Country
+                    contact@arctan.ai
                   </h3>
                 </Fragment>
               )}
@@ -49,34 +47,18 @@ const Contact10 = (props) => {
             <p>
               {props.location1Description ?? (
                 <Fragment>
-                  <p className="contact10-text17 thq-body-large">
-                    Headquarters
-                  </p>
+                  <p className="contact10-text17 thq-body-large">Email</p>
                 </Fragment>
               )}
             </p>
-            <div className="contact10-container3">
-              <a
-                href="https://example.com"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="thq-button-flat thq-body-small"
-              >
-                Get directions
-              </a>
-            </div>
+            <div className="contact10-container3"></div>
           </div>
           <div className="contact10-container4">
-            <img
-              alt={props.location2ImageAlt}
-              src={props.location2ImageSrc}
-              className="contact10-image2 thq-img-ratio-16-9"
-            />
             <h3>
               {props.location2 ?? (
                 <Fragment>
                   <h3 className="contact10-text18 thq-heading-3">
-                    +1-123-456-7890
+                    +91-90459-00495
                   </h3>
                 </Fragment>
               )}
@@ -90,16 +72,7 @@ const Contact10 = (props) => {
                 </Fragment>
               )}
             </p>
-            <div className="contact10-container5">
-              <a
-                href="https://example.com"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="thq-button-flat thq-body-small"
-              >
-                Get directions
-              </a>
-            </div>
+            <div className="contact10-container5"></div>
           </div>
         </div>
       </div>
@@ -109,30 +82,22 @@ const Contact10 = (props) => {
 
 Contact10.defaultProps = {
   location1: undefined,
-  location1ImageSrc:
-    'https://images.unsplash.com/photo-1641790017163-4c0de7df1841?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMzQ1OTAzNnw&ixlib=rb-4.0.3&q=80&w=1080',
-  location2ImageAlt: 'Phone Icon',
   location1Description: undefined,
-  location2ImageSrc:
-    'https://images.unsplash.com/photo-1547032175-7fc8c7bd15b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMzQ1OTAzNXw&ixlib=rb-4.0.3&q=80&w=1080',
   location2: undefined,
   content1: undefined,
   location2Description: undefined,
-  location1ImageAlt: 'Headquarters Image',
   heading1: undefined,
+  contact10Id: '',
 }
 
 Contact10.propTypes = {
   location1: PropTypes.element,
-  location1ImageSrc: PropTypes.string,
-  location2ImageAlt: PropTypes.string,
   location1Description: PropTypes.element,
-  location2ImageSrc: PropTypes.string,
   location2: PropTypes.element,
   content1: PropTypes.element,
   location2Description: PropTypes.element,
-  location1ImageAlt: PropTypes.string,
   heading1: PropTypes.element,
+  contact10Id: PropTypes.string,
 }
 
 export default Contact10

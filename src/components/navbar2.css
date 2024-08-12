@@ -16,18 +16,23 @@
   justify-content: space-between;
 }
 .navbar2-image1 {
-  height: 3rem;
+  width: 128px;
+  height: 57px;
+  margin-left: var(--dl-space-space-threeunits);
 }
 .navbar2-desktop-menu {
   flex: 1;
   display: flex;
+  position: relative;
   justify-content: space-between;
 }
 .navbar2-links1 {
   gap: var(--dl-space-space-twounits);
   flex: 1;
   display: flex;
+  align-self: stretch;
   align-items: center;
+  margin-right: var(--dl-space-space-oneandhalfunits);
   flex-direction: row;
   justify-content: flex-end;
 }
@@ -97,20 +102,25 @@
   display: flex;
 }
 .navbar2-text1 {
+  color: rgb(46, 39, 51);
   display: inline-block;
 }
 .navbar2-text2 {
   display: inline-block;
 }
 .navbar2-text3 {
+  color: #2E2733;
   display: inline-block;
+  font-family: "Roboto";
 }
 .navbar2-text4 {
   display: inline-block;
 }
 .navbar2-text5 {
   display: inline-block;
+  font-family: "Roboto";
 }
+
 @media(max-width: 767px) {
   .navbar2-navbar-interactive {
     padding-left: var(--dl-space-space-twounits);

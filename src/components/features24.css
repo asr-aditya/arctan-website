@@ -134,21 +134,27 @@
 }
 .features24-text1 {
   display: inline-block;
+  font-family: "Roboto";
 }
 .features24-text2 {
   display: inline-block;
+  font-family: "Roboto";
 }
 .features24-text3 {
   display: inline-block;
+  font-family: "Roboto";
 }
 .features24-text4 {
   display: inline-block;
+  font-family: "Roboto";
 }
 .features24-text5 {
   display: inline-block;
+  font-family: "Roboto";
 }
 .features24-text6 {
   display: inline-block;
+  font-family: "Roboto";
 }
 @media(max-width: 991px) {
   .features24-container2 {
